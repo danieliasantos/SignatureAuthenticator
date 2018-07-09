@@ -1,0 +1,123 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.RandomForest -P 100 -I 100 -num-slots 1 -K 0 -M 1.0 -V 0.001 -S 1
+Relation:     segment
+Instances:    274108
+Attributes:   77
+              original
+              Sobel_filter_0.0
+              Hessian_0.0
+              Hessian_Trace_0.0
+              Hessian_Determinant_0.0
+              Hessian_Eigenvalue_1_0.0
+              Hessian_Eigenvalue_2_0.0
+              Hessian_Orientation_0.0
+              Hessian_Square_Eigenvalue_Difference_0.0
+              Hessian_Normalized_Eigenvalue_Difference_0.0
+              Gaussian_blur_1.0
+              Sobel_filter_1.0
+              Hessian_1.0
+              Hessian_Trace_1.0
+              Hessian_Determinant_1.0
+              Hessian_Eigenvalue_1_1.0
+              Hessian_Eigenvalue_2_1.0
+              Hessian_Orientation_1.0
+              Hessian_Square_Eigenvalue_Difference_1.0
+              Hessian_Normalized_Eigenvalue_Difference_1.0
+              Gaussian_blur_2.0
+              Sobel_filter_2.0
+              Hessian_2.0
+              Hessian_Trace_2.0
+              Hessian_Determinant_2.0
+              Hessian_Eigenvalue_1_2.0
+              Hessian_Eigenvalue_2_2.0
+              Hessian_Orientation_2.0
+              Hessian_Square_Eigenvalue_Difference_2.0
+              Hessian_Normalized_Eigenvalue_Difference_2.0
+              Difference_of_gaussians_2.0_1.0
+              Gaussian_blur_4.0
+              Sobel_filter_4.0
+              Hessian_4.0
+              Hessian_Trace_4.0
+              Hessian_Determinant_4.0
+              Hessian_Eigenvalue_1_4.0
+              Hessian_Eigenvalue_2_4.0
+              Hessian_Orientation_4.0
+              Hessian_Square_Eigenvalue_Difference_4.0
+              Hessian_Normalized_Eigenvalue_Difference_4.0
+              Difference_of_gaussians_4.0_1.0
+              Difference_of_gaussians_4.0_2.0
+              Gaussian_blur_8.0
+              Sobel_filter_8.0
+              Hessian_8.0
+              Hessian_Trace_8.0
+              Hessian_Determinant_8.0
+              Hessian_Eigenvalue_1_8.0
+              Hessian_Eigenvalue_2_8.0
+              Hessian_Orientation_8.0
+              Hessian_Square_Eigenvalue_Difference_8.0
+              Hessian_Normalized_Eigenvalue_Difference_8.0
+              Difference_of_gaussians_8.0_1.0
+              Difference_of_gaussians_8.0_2.0
+              Difference_of_gaussians_8.0_4.0
+              Gaussian_blur_16.0
+              Sobel_filter_16.0
+              Hessian_16.0
+              Hessian_Trace_16.0
+              Hessian_Determinant_16.0
+              Hessian_Eigenvalue_1_16.0
+              Hessian_Eigenvalue_2_16.0
+              Hessian_Orientation_16.0
+              Hessian_Square_Eigenvalue_Difference_16.0
+              Hessian_Normalized_Eigenvalue_Difference_16.0
+              Difference_of_gaussians_16.0_1.0
+              Difference_of_gaussians_16.0_2.0
+              Difference_of_gaussians_16.0_4.0
+              Difference_of_gaussians_16.0_8.0
+              Membrane_projections_0_19_1
+              Membrane_projections_1_19_1
+              Membrane_projections_2_19_1
+              Membrane_projections_3_19_1
+              Membrane_projections_4_19_1
+              Membrane_projections_5_19_1
+              class
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+RandomForest
+
+Bagging with 100 iterations and base learner
+
+weka.classifiers.trees.RandomTree -K 0 -M 1.0 -V 0.001 -S 1 -do-not-check-capabilities
+
+Time taken to build model: 8.63 seconds
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 2.34 seconds
+
+=== Summary ===
+
+Correctly Classified Instances       69968              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0     
+Root mean squared error                  0     
+Relative absolute error                  0      %
+Root relative squared error              0      %
+Total Number of Instances            69968     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1,000    ?        1,000      1,000    1,000      ?        ?         1,000     class 1
+                 ?        0,000    ?          ?        ?          ?        ?         ?         class 2
+Weighted Avg.    1,000    ?        1,000      1,000    1,000      ?        ?         1,000     
+
+=== Confusion Matrix ===
+
+     a     b   <-- classified as
+ 69968     0 |     a = class 1
+     0     0 |     b = class 2
+

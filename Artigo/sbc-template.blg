@@ -1,0 +1,74 @@
+This is 8-bit Big BibTeX version 0.99d
+Implementation:  C for Unix
+Release version: 3.71 (18 mar 2013)
+
+The 8-bit codepage and sorting file: 88591lat.csf
+The top-level auxiliary file: sbc-template.aux
+The style file: abnt-num.bst
+Reallocated glb_str_ptr (elt_size=8) to 10 items from 0.
+Reallocated global_strs (elt_size=20001) to 10 items from 0.
+Reallocated glb_str_end (elt_size=8) to 10 items from 0.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated wiz_functions (elt_size=8) to 6000 items from 3000.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Database file #1: sbc-template.bib
+I was expecting a `,' or a `}'---line 135 of file sbc-template.bib
+ :  
+ :  year = {2006}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 149 of file sbc-template.bib
+ :  
+ :  year = {1962}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "srinivasa2006"
+Reallocated wiz_functions (elt_size=8) to 9000 items from 6000.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Too many commas in name 1 of "Kevin Eliceiri, Pavel Tomancak, Florian Jug, Anne Carpenter, Michael Berthold[ and Jason Swedlow" for entry eliceiri2017
+while executing---line 2129 of file abnt-num.bst
+Too many commas in name 1 of "Kevin Eliceiri, Pavel Tomancak, Florian Jug, Anne Carpenter, Michael Berthold[ and Jason Swedlow" for entry eliceiri2017
+while executing---line 2129 of file abnt-num.bst
+Too many commas in name 1 of "Kevin Eliceiri, Pavel Tomancak, Florian Jug, Anne Carpenter, Michael Berthold[ and Jason Swedlow" for entry eliceiri2017
+while executing---line 2129 of file abnt-num.bst
+Too many commas in name 1 of "Kevin Eliceiri, Pavel Tomancak, Florian Jug, Anne Carpenter, Michael Berthold[ and Jason Swedlow" for entry eliceiri2017
+while executing---line 2129 of file abnt-num.bst
+Too many commas in name 1 of "Kevin Eliceiri, Pavel Tomancak, Florian Jug, Anne Carpenter, Michael Berthold[ and Jason Swedlow" for entry eliceiri2017
+while executing---line 2129 of file abnt-num.bst
+Too many commas in name 1 of "Kevin Eliceiri, Pavel Tomancak, Florian Jug, Anne Carpenter, Michael Berthold[ and Jason Swedlow" for entry eliceiri2017
+while executing---line 2129 of file abnt-num.bst
+Too many commas in name 1 of "Kevin Eliceiri, Pavel Tomancak, Florian Jug, Anne Carpenter, Michael Berthold[ and Jason Swedlow" for entry eliceiri2017
+while executing---line 2129 of file abnt-num.bst
+Too many commas in name 1 of "Kevin Eliceiri, Pavel Tomancak, Florian Jug, Anne Carpenter, Michael Berthold[ and Jason Swedlow" for entry eliceiri2017
+while executing---line 2129 of file abnt-num.bst
+Too many commas in name 1 of "Kevin Eliceiri, Pavel Tomancak, Florian Jug, Anne Carpenter, Michael Berthold[ and Jason Swedlow" for entry eliceiri2017
+while executing---line 2129 of file abnt-num.bst
+Too many commas in name 1 of "Kevin Eliceiri, Pavel Tomancak, Florian Jug, Anne Carpenter, Michael Berthold[ and Jason Swedlow" for entry eliceiri2017
+while executing---line 2129 of file abnt-num.bst
+Reallocated glb_str_ptr (elt_size=8) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=8) to 20 items from 10.
+Too many commas in name 1 of "Kevin Eliceiri, Pavel Tomancak, Florian Jug, Anne Carpenter, Michael Berthold[ and Jason Swedlow" for entry eliceiri2017
+while executing---line 2184 of file abnt-num.bst
+Too many commas in name 1 of "Kevin Eliceiri, Pavel Tomancak, Florian Jug, Anne Carpenter, Michael Berthold[ and Jason Swedlow" for entry eliceiri2017
+while executing---line 2184 of file abnt-num.bst
++---------------------------------------------------------+
+| Estilo bibliografico abnt-num.bst versao 1.50           |
+| Implementa a NBR6023, NBR10520 e NBR10523               |
+| Em caso de duvidas ou problemas com este estilo procure |
+| http://abntex.codigolivre.org.br                        |
++---------------------------------------------------------+
+
+Here's how much of BibTeX's memory you used:
+ Cites:                 9 out of 750
+ Fields:              617 out of 5000
+ Hash table:        99438 out of 100000
+ Strings:            1199 out of 100000
+ Free string pool:  10677 out of 65000
+ Wizard functions:   6522 out of 9000
+(There were 14 error messages)
